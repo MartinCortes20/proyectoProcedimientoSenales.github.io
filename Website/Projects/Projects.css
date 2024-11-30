@@ -29,7 +29,7 @@
         display: flex; /* Convierte el contenedor del cuerpo en un contenedor flexible */
         flex-direction: column; /* Establece la dirección del eje principal como columna */
         font-size: 16px; /*Tamaño de Texto*/
-        background-color: #F2D9BB; /* Color de fondo para el cuerpo del documento */
+        background-color: #ffb3a9db; /* Color de fondo para el cuerpo del documento */
     }
     
      /* Estilos para la lista no ordenada (ul) */
@@ -59,7 +59,7 @@
         /* Estilos para la sección de Proyectos */
         #proyectos{
             background-color:  #ffffff ; 
-            background-image: linear-gradient(45deg, transparent 50%, #F2D9BB  50%); /* Color de fondo para la sección Acerca de */
+            background-image: linear-gradient(45deg, transparent 50%, #ffb3a9db  50%); /* Color de fondo para la sección Acerca de */
             padding: 15px; /* Ajusta el espaciado según tus preferencias */
         }
     
