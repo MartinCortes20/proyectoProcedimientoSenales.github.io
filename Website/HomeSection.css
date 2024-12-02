@@ -33,7 +33,7 @@
     display: flex; /* Convierte el contenedor del cuerpo en un contenedor flexible */
     flex-direction: column; /* Establece la dirección del eje principal como columna */
     font-size: 16px; /*Tamaño de Texto*/
-    background:  #ffb3a9db;
+    background:  #d3eff4ed ;
 }
 
  /* Estilos para la lista no ordenada (ul) */
@@ -59,7 +59,7 @@ a {
 
  /* Estilos para la sección de Inicio */
  #inicio {
-    background-color:  #ffb3a9db ; /* Color de fondo */
+    background-color:  #d3eff4ed ; /* Color de fondo */
     padding: 0px; /* Espaciado interno */
     margin: 0px; /* Márgenes exteriores */
 }
@@ -277,9 +277,9 @@ a {
     
         /* Estilos para el pie de página */
         footer {
-            background:  #731929ec 20%; /* Gradiente diagonal */
+            background-color: #731929ec; /* Color de fondo del pie de página con transparencia */
             font-size: 14px; /* Tamaño de fuente de 14px */
-            color: #fffbfb; /* Color del texto en blanco */
+            color: #ffffff; /* Color del texto en blanco */
             width: 100%; /* Ancho del pie de página al 100% */
             height: 90px; /* Altura del pie de página de 90px */
             bottom: 0; /* Posicionar en la parte inferior */
@@ -291,10 +291,10 @@ a {
             display: flex; /* Utilizamos flexbox para organizar los elementos dentro del footer */
             justify-content: space-between; /* Distribuir los elementos de forma equitativa */
             align-items: center; /* Alinear los elementos verticalmente al centro */
-            padding: 10px; /* Agrega un espacio interno para separar los elementos del borde del footer */
+            padding: 5px; /* Agrega un espacio interno para separar los elementos del borde del footer */
             position: sticky;
-            text-align: 15px;
         }
+
     
         /* Estilos para el contenido del pie de página */
         footer .content {
@@ -326,7 +326,7 @@ a {
     
         footer a {
             color: #ffffff; /* Color del texto en blanco */
-            margin-left: 15px; /* Margen de 0 para eliminar espacios innecesarios */
+            margin: 0; /* Margen de 0 para eliminar espacios innecesarios */
             text-decoration: underline; /* Subrayar el enlace */
             text-align: left;
         }
